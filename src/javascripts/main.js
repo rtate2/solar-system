@@ -1,4 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
 
-console.error('hi');
+import planetList from './components/planetList/planetList';
+
+const init = () => {
+  planetList.createPlanetList();
+};
+init();

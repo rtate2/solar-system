@@ -1,5 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color: lightgreen;
-}
+  background-image: url('../solarSystem/spaceE10.jpg');
+  background-color: purple;
+};
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+};
