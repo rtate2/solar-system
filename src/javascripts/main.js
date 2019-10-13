@@ -1,9 +1,13 @@
 import 'bootstrap';
 import '../styles/main.scss';
 
-import planetList from './components/planetList/planetList';
+import hover from './components/hover/hover';
+import cardFront from './components/card-front/cardFront';
 
 const init = () => {
-  planetList.createPlanetList();
+  // cardFront.hide();
+  cardFront.cardPrinter();
+  hover.hoverImage();
 };
+
 init();
