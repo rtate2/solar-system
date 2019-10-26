@@ -1,4 +1,10 @@
-# solar-system
+# Solar-System
+
+## Technologies Used
+* JavaScript
+* Bootstrap
+* SCSS
+* jQuery
 
 ## Description
 Use this application to learn facts about the eight planets within the solar system. When the user moves their mouse over a planet card the name will disappear and the image of the planet will appear.
@@ -10,7 +16,11 @@ When the user clicks on the 'X' on the single planet card, that information goes
 When the user types in the search bar, planet cards will only show up if they have what is typed in their name or description.
 
 ## Screenshots
-![Solar System Previews]()
+![Solar System Previews](https://raw.githubusercontent.com/rtate2/solar-system/master/src/solarSystem/solarSystem.png)
+
+![Solar System Previews](https://raw.githubusercontent.com/rtate2/solar-system/master/src/solarSystem/solarSystemHover.png)
+
+![Solar System Previews](https://raw.githubusercontent.com/rtate2/solar-system/master/src/solarSystem/solarSystemDetailed.png)
 
 ## How to run
 * Clone down this project
