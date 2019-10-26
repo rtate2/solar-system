@@ -1,7 +1,7 @@
-// import $ from 'jquery';
-import './cardFront.scss';
 import utilities from '../../helpers/utilities';
 import planets from '../../helpers/data/planets';
+
+import './cardFront.scss';
 
 const cardPrinter = () => {
   const planet = planets.getPlanets();
@@ -9,14 +9,10 @@ const cardPrinter = () => {
   for (let i = 0; i < planet.length; i += 1) {
     domString += `
     <div class="col-3">
-      <div id="front" class="card individual-card">
+      <div id="${planet[i].Name}" class="card individual-card cardFront">
         <img src="${planet[i].imageUrl}" class="card-img-top image" alt="...">
         <div class="card-body">
-          <h2 class="card-title title">${planet[i].Name}</h2>
-          <p class="card-text d-none">Planet Description: ${planet[i].Description}</p>
-          <p class="card-text d-none">Is a Gas Planet: ${planet[i].isGasPlanet}</p>
-          <p class="card-text d-none">Number of Moons: ${planet[i].numberOfMoons}</p>
-          <p class="card-text d-none">Largest Moon: ${planet[i].nameOfLargestMoon}</p>
+          <h2 class="card-title title frontTitle">${planet[i].Name}</h2>
         </div>
       </div>
     </div>
